@@ -60,6 +60,7 @@ header{
 
 .logo{
     width: 5rem;
+    cursor: pointer;
 }
 
 .logo img{
@@ -165,7 +166,7 @@ header{
     margin: 5rem 0;
 }
 
-.picture-glary{
+.picture-gallery{
     display: flex;
     flex-direction: row;
     gap: 4rem;
@@ -173,7 +174,7 @@ header{
     height: 35rem;
 }
 
-.glary{
+.gallery{
     flex: 1
 }
 
