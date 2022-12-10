@@ -22,6 +22,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
+    font-size: 1.8rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     /* overflow: hidden; */
@@ -44,18 +45,17 @@ a{
 .top{
     padding: 0 18rem;
     background-color: #1F2937;
-    height: 80vh;
+    height: 100vh;
 }
 
 
 
 /* Header */
 header{
-    height: 10rem;
+    height: 14vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 60px;
 }
 
 .logo{
@@ -67,7 +67,7 @@ header{
 }
 
 .pages a{
-    margin-left: 2rem;
+    margin-left: 2.4rem;
     font-size: 1.8rem;
     color: #E5E7EB;
 }
@@ -84,8 +84,12 @@ header{
 
 /* Hero */
 .hero{
+    height: 86vh;
+    margin-top: -8vh;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     gap: 5rem;
 }
 
@@ -93,7 +97,6 @@ header{
 
 /* Hero Left */
 .hero-left{
-    width: 100rem;
     flex: 1;
 }
 .hero h1{
@@ -115,17 +118,17 @@ header{
     font-weight: 900;
     padding: 1rem 2.2rem;
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
     border-radius: .8rem;
 }
 
 .top-btn{
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8; 
 }
 
 .top-btn:hover{
-    background-color: white;
+    background-color: #F9FAF8;
     color: #3882F6;
 }
 
@@ -136,4 +139,164 @@ header{
 
 .hero-right img{
     width: 100%;
+}
+
+
+
+
+/*                Mid               */
+
+.mid{
+    padding: 0 18rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Picture Glary */
+
+.mid h1{
+    font-size: 3.6rem;
+    font-weight: 700;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0;
+}
+
+.picture-glary{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    font-size: 1.8rem;
+    height: 35rem;
+}
+
+.glary{
+    flex: 1
+}
+
+.frame{
+    width: 100%;
+    height: 22rem;
+    margin-bottom: 2rem;
+}
+
+.frame img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: .5rem;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+.frame .two, .frame .one{
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.frame-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*                Bottom            */
+.bottom{
+    padding: 0 18rem;
+    height: 50vh;
+    background-color: #E5E7EB;
+
+}
+
+/* Quote */
+.quote-box{
+    height: 50vh;
+    padding: 0 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.writer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*          White   Big Sign up           */
+
+.white-bottom{
+    height: 40vh;
+    background-color: #F9FAF8;
+    padding: 0 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 10rem;
+    border-radius: .5rem;
+}
+
+.left-sign-up{
+    color: #E5E7EB;
+    flex: 2;
+}
+
+.right-sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.bottom-btn{
+    background-color: #F9FAF8;
+    color: #3882F6;
+}
+
+.bottom-btn:hover{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
+
+/*    Footer  */
+
+footer{
+    height: 10vh;
+    background-color: #1F2937;
+    color: #F9FAF8;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
